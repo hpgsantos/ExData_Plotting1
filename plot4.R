@@ -3,7 +3,7 @@ df <- out[out$Date %in% c("1/2/2007","2/2/2007") ,]
 
 dt <- strptime(paste(df$Date, df$Time, sep=" "), "%d/%m/%Y %H:%M:%S") 
 
-png("figure/plot4.png", width=505, height=505)
+png("figure/plot4.png", width=480, height=480)
 par(mfrow = c(2, 2))
 
 #GlobalActivePower
